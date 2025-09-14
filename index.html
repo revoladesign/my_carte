@@ -1259,7 +1259,7 @@ ${Object.entries(data.links).filter(([key, value]) => value).map(([key, value]) 
                     formData.append('entry.2005620554', summary);
                     
                     // Try to submit to Google Forms
-                    fetch('https://docs.google.com/forms/d/e/1FAIpQLSfNND0BD2fadqn8Cr-HDqcgw3SGIC2z6-OYc_SvO5IbWQ6yag/formResponse', {
+                    fetch('https://docs.google.com/forms/d/e/1FAIpQLSfNND0BD2fadqn8Cr-HDqcgw3SGIC2z6-OYc_SvO5IbWQ6yag/viewform?usp=dialog', {
                         method: 'POST',
                         mode: 'no-cors',
                         body: formData
